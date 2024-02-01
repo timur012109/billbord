@@ -1,0 +1,261 @@
+<style type="text/css">
+	.header{
+		width: 100%;
+		height: 50px;
+		background-color: lightgray;
+	}
+	.chart-container{
+		width: 850px;
+		height: 100%;
+		margin-left: 350px;
+		margin-top: 5px;
+	}
+	.header-center{
+		height: 50px;
+		width: 850px;
+		margin-left: 350px;
+		display: flex;
+	}
+	.chart-sort{
+		width: 850px;
+		height: 50px;
+		display: flex;
+	}
+	.chart-up{
+		height: 100px;
+		width: 850px;
+		border-radius: 10px;
+		background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,24,1) 0%, rgba(46,67,110,1) 100%, rgba(255,0,78,0.06775210084033612) 100%);
+		margin-top: 10px;
+		display: flex;
+
+	}
+	.chart-new{
+		background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(166,17,140,1) 0%, rgba(196,54,2,1) 100%, rgba(255,0,78,0.06775210084033612) 100%);
+		height: 100px;
+		width: 850px;
+		margin-top: 10px;
+		border-radius: 10px;
+		display: flex;
+	}
+	.chart-down{
+		height: 100px;
+		width: 850px;
+		border-radius: 10px;
+		background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(83,76,219,1) 0%, rgba(255,0,232,1) 100%, rgba(255,0,78,0.06775210084033612) 100%);
+		margin-top: 10px;
+		display: flex;
+	}
+	.box-logo{
+		height: 50px;
+		width: 150px;
+	}
+	.box-links{
+		height: 50px;
+		width: 550px;
+		margin-left: 2px;
+		display: flex;
+	}
+	.box-button{
+		height: 50px;
+		width: 150px;
+		margin-left: 2px;
+	}
+	.chart-rank{
+		height: 100px;
+		width: 125px;
+	}
+	.chart-info{
+		height: 100px;
+		width: 500px;
+		margin-left: 2px;
+	}
+	.chart-butt{
+		height: 100px;
+		width: 150px;
+		margin-left: 2px;
+	}
+	.chart-img{
+		height: 100px;
+		width: 125px;
+		margin-left: 2px;
+	}
+	.logo{
+		width: 150px;
+	}
+	.href{
+		color: white;
+		font-family: Arial;
+		font-size: 15px;
+		margin-left: 25px;
+		margin-top: 15px;
+	}
+	.href:hover{
+		color: blue;
+		transition: 0.5s;
+	}
+	.but-sub{
+		background-color: purple;
+		width: 100px;
+		color: white;
+		margin-left: 25px;
+		margin-top: 15px;
+		border-radius: 5px;
+		border: none;
+	}
+	.but-sub:hover{
+		background-color: gray;
+		transition: 0.5s;
+	}
+	.but-time{
+		margin-top: 10px;
+		border-radius: 5px;
+		color: white;
+		font-size: 15px;
+		font-family: Arial;
+		height: 20px;
+		width: 115px;
+		margin-left: 5px;
+		border: none;
+		background-color: lightgray;
+	}
+	.but-time:hover{
+		background-color: red;
+		transition: 0.5s;
+	}
+	.obl{
+		width: 85px;
+		height: 85px;
+		margin-left: 17px;
+		margin-top: 7px;
+	}
+	.top-sou{
+		font-size: 37px;
+		padding-left: 47px;
+		font-family: Arial;
+	}
+	.name-mus{
+		font-size: 20px;
+		color: darkblue;
+		font-family: Arial;
+	}
+	.info-mus{
+		color: white;
+		font-size: 15px;
+		font-family: Arial;
+	}
+</style>
+<div class="header">
+	<div class="header-center">
+		<div class="box-logo">
+			<img src="logo.png" class="logo">
+		</div>
+		<div class="box-links">
+			<a href="" class="href">CHART</a>
+			<a href="" class="href">NEWS</a>
+			<a href="" class="href">VIDEO</a>
+			<a href="" class="href">PHOTO</a>
+		</div>
+		<div class="box-button">
+			<button class="but-sub">subscribe</button>
+		</div>
+	</div>
+</div>
+<div class="chart-container">
+	<div class="chart-sort">
+		<button class="but-time"  >THIS WEEK</button>
+		<button class="but-time"  >LAST WEEK</button>
+		<button class="but-time" >PEAK</button>
+		<button class="but-time" >DURATION</button>
+	</div>
+	<div class="chart-up">
+		<div class="chart-rank">
+			<h2 class="top-sou">1</h2>
+		</div>
+		<div class="chart-info">
+			<p class="name-mus">Little Dark Age</p>
+			<p class="info-mus">M G M T</p>
+		</div>
+		<div class="chart-butt">
+			<button class="but-time" style="background-color: blue;">Воспроивести</button>
+		</div>
+		<div class="chart-img">
+			<img src="1.jpg" class="obl">
+		</div>
+	</div>
+	<div class="chart-new">
+		<div class="chart-rank">
+			<h2 class="top-sou">2</h2>
+		</div>
+		<div class="chart-info">
+			<p class="name-mus">Psycho Dreams</p>
+			<p class="info-mus">Kill Eva,ENCASSATOR</p>
+		</div>
+		<div class="chart-butt">
+			<button class="but-time" style="background-color: green;">Купить</button>
+		</div>
+		<div class="chart-img">
+			<img src="2.jpg" class="obl">
+		</div>
+	</div>
+	<div class="chart-new">
+		<div class="chart-rank">
+			<h2 class="top-sou">3</h2>
+		</div>
+		<div class="chart-info">
+			<p class="name-mus">Lost</p>
+			<p class="info-mus">Crim3</p>
+		</div>
+		<div class="chart-butt">
+			<button class="but-time" style="background-color: green;">Купить</button>
+		</div>
+		<div class="chart-img">
+			<img src="3.jpg" class="obl">
+		</div>
+	</div>
+	<div class="chart-up">
+		<div class="chart-rank">
+			<h2 class="top-sou">4</h2>
+		</div>
+		<div class="chart-info">
+			<p class="name-mus">MOOD</p>
+			<p class="info-mus">24kGoldn featuring iann dior</p>
+		</div>
+		<div class="chart-butt">
+			<button class="but-time" style="background-color: green;">Купить</button>
+		</div>
+		<div class="chart-img">
+			<img src="4.jpg" class="obl">
+		</div>
+	</div>
+	<div class="chart-down">
+		<div class="chart-rank">
+			<h2 class="top-sou">5</h2>
+		</div>
+		<div class="chart-info">
+			<p class="name-mus">Laugh Now Cry Later</p>
+			<p class="info-mus">Drake featuring Lil Durk</p>
+		</div>
+		<div class="chart-butt">
+			<button class="but-time" style="background-color: blue;">Воспроивести</button>
+		</div>
+		<div class="chart-img">
+			<img src="5.jpg" class="obl">
+		</div>
+	</div>
+	<div class="chart-new">
+		<div class="chart-rank">
+			<h2 class="top-sou">6</h2>
+		</div>
+		<div class="chart-info">
+			<p class="name-mus">Blinding Lights</p>
+			<p class="info-mus">The Weekend</p>
+		</div>
+		<div class="chart-butt">
+			<button class="but-time" style="background-color: blue;">Воспроивести</button>
+		</div>
+		<div class="chart-img">
+			<img src="6.jpg" class="obl">
+		</div>
+	</div>
+</div>
